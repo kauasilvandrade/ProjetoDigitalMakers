@@ -1,0 +1,29 @@
+.main__slide, .section__digitalCreators .container,.section__schedule, .section__allSpeakers, .section__bestCompanies, .section__testimonials, .section__pricing, .section__yourQuestions, .section__bookYourSpot {
+    margin-bottom: 10rem;
+}
+
+/* LINK BLUE */
+.main__link--Book {
+    color: var(--white);
+    background-color: var(--blue);
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0.9rem 1.7rem;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    font-size: 0.9em;
+}
+
+/* IMG LOGO */
+.img-logo {
+    width: 12rem;
+}
+
+/* TITLE */
+.main__title {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: var(--roboto);
+    font-size: 0.95em;
+}

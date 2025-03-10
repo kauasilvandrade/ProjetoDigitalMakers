@@ -1,0 +1,43 @@
+.section__testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--gray);
+    padding-bottom: 10rem;
+}
+
+
+.section__listTestimonials {
+    display: flex;
+    gap: 7rem;
+    justify-content: center;
+}
+
+.section__testimonial {
+    flex-basis: 21rem;
+    text-align: center;
+}
+
+.section__testimonial > img {
+    margin-bottom: 1rem;
+}
+.section__testimonials p {
+    margin-bottom: 4rem;
+    font-size: 1.2em;
+}
+
+.section__testimonialsContact {}
+
+.section__testimonialsContact img {
+    max-width: 3.5rem;
+    border-radius: 15px;
+}
+
+.section__testimonialsContact h4 {
+    margin: 0.7rem 0rem;
+}
+
+.section__testimonialsContact span {
+    color: var(--gray);
+}

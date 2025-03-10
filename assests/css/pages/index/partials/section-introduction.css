@@ -1,0 +1,36 @@
+.main__introduction {
+    background-image: url(../../../../images/global/banner.png);
+    background-size: cover;
+    text-align: center;
+    padding: 18.3rem;
+}
+
+.main__titleIntroduction {}
+
+.main__titleIntroduction span {
+    margin: 0 2.5rem;
+}
+
+.main__titleIntroduction h1 {
+    font-size: 8.7em;
+    font-weight: 500;
+}
+
+.main__joinIntroduction {
+    max-width: 30rem;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+    margin-bottom: 10rem;
+}
+
+.main__joinIntroduction span {}
+
+.main__joinIntroduction p {}
+
+.main__joinIntroduction a {}
+
+

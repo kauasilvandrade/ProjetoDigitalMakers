@@ -1,0 +1,51 @@
+.header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem 2.5rem;
+}
+
+.header__nav {}
+
+.header__listLinks {
+    list-style: none;
+    display: flex;
+    gap: 1.2rem;
+}
+
+.header__link {}
+
+.header__link a, .header__pricing-sing a {
+    text-decoration: none;
+    font-family: var(--roboto);
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.header__link a {
+    font-size: 0.88em;
+    letter-spacing: 1px;
+}
+
+.header__imgBox, .header__pricing-sing {
+    flex-basis: 21rem;
+}
+
+.header__imgBox figcaption {
+    display: none;
+}
+
+.header__pricing-sing a {
+    padding: 0.78rem 1.8rem;
+    font-size: 0.95em;
+    letter-spacing: 2px;
+}
+
+.header__pricing-sing #header--linkSingUp {
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 10px;
+}

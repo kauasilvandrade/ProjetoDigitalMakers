@@ -1,0 +1,16 @@
+@import url('../../global/global.css');
+
+/* PARTIALS */
+@import url('partials/footer.css');
+@import url('partials/header.css');
+@import url('partials/section-all-speakers.css');
+@import url('partials/section-best-companies.css');
+@import url('partials/section-book-your-spot.css');
+@import url('partials/section-digital-creators.css');
+@import url('partials/section-introduction.css');
+@import url('partials/section-pricing.css');
+@import url('partials/section-schedule.css');
+@import url('partials/section-slide.css');
+@import url('partials/section-testimonials.css');
+@import url('partials/section-your-questions.css');
+

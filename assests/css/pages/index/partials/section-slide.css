@@ -1,0 +1,42 @@
+.main__slide {}
+
+.main__slide img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.main__actionsSlide {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__slide span {
+    font-size: 1.3em;
+}
+
+.main__underlineSlide {
+    background-color: var(--white);
+    height: 2px;
+    width: 0%;
+    border-radius: 0px 10px 10px 0px;
+    animation: under 10s alternate infinite;
+}
+
+.main__iconesSlide {}
+
+.main__iconesSlide button {
+    background-color: transparent;
+    padding: 0.8rem;
+    border: none;
+    color: var(--white);
+    cursor: pointer;
+}
+
+@keyframes under {
+    to {
+        width: 90%;
+    }
+}

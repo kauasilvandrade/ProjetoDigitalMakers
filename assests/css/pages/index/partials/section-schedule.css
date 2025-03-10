@@ -1,0 +1,69 @@
+.section__schedule {}
+
+.section__scheduleDay {
+    font-size: 1.6em;
+    padding: 2rem 0 3.5rem 0;
+}
+
+.section__actionPopUp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--gray);
+    padding-bottom: 3rem;
+}
+
+.section__actionPopUp span {}
+
+.section__actionPopUp i {
+    font-size: 0.7em;
+    color: var(--gray);
+}
+
+.section__events {
+    display: none;
+}
+
+.section__eventDay {
+    border-bottom: 1px solid var(--gray);
+    display: flex;
+    padding: 2rem 6rem 3rem 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section__eventDay span {
+    color: var(--blue);
+    font-size: 0.6em;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.section__eventDay h3 {
+    font-size: 1.5em;
+    flex-basis: 15rem;
+}
+
+.section__divisao {
+    flex-basis: 30rem;
+}
+
+.section__eventDay p {
+    color: var(--gray);
+    font-size: 0.7em;
+    margin-bottom: 2rem;
+}
+
+.section__listParticipants {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section__participant {
+    background-color: #ffffff0d;
+    border: 1px solid #ffffff1a;
+    border-radius: 30px;
+    padding: 0.7rem;
+    font-size: 0.5em;
+}

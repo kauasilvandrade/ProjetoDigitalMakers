@@ -1,0 +1,32 @@
+@import url('elements.css');
+@import url('fonts.css');
+@import url('reset.css');
+@import url('variable.css');
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 10rem;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 82rem;
+    margin: auto;
+}
+
+h2 {
+    font-size: 3.19em;
+    font-weight: 500;
+    margin-bottom: 5rem;
+}
+
+p {
+    font-size: 1.1250em;
+    line-height: 1.5em;
+}
+

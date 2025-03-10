@@ -1,0 +1,48 @@
+.section__bestCompanies {
+    border-top: 1px solid var(--gray);
+    padding: 10rem;
+    text-align: center;
+}
+
+.section__bestCompanies h2, .section__bestCompanies p {
+    margin-bottom: 3rem;
+}
+
+.section__actionCompanies, .section__actionCompanies button {
+    margin-bottom: 1rem;
+}
+
+.section__actionCompanies {
+    border-bottom: 1px solid var(--gray);
+}
+
+.section__actionCompanies button {
+    font-family: var(--roboto);
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--white);
+    font-size: 0.88em;
+    letter-spacing: 1px;
+    background: transparent;
+    border: none;
+}
+
+.section__listCompanies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 6rem;
+}
+
+.section__companies {
+    background-color: #ffffff0d;
+    border-radius: 15px;
+    width: 20rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section__companies img {}

@@ -1,0 +1,29 @@
+.section__allSpeakers {}
+
+.section__allSpeakers p {
+    color: var(--gray);
+    margin-bottom: 2.7rem;
+}
+
+.section__listSpeakers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__speakers {}
+
+.section__speakers img {
+    max-width: 25.6rem;
+    border-radius: 15px;
+}
+
+.section__speakers h3 {
+    margin: 0.8rem 0;
+    font-size: 1.1em;
+
+}
+
+.section__speakers p {
+    color: var(--gray);
+    font-size: 1.09em;
+}
