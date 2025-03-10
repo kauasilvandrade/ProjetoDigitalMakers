@@ -1,7 +1,6 @@
 .section__bestCompanies {
     border-top: 1px solid var(--gray);
     padding: 10rem;
-    text-align: center;
 }
 
 .section__bestCompanies h2, .section__bestCompanies p {

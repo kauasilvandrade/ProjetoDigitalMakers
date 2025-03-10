@@ -1,7 +1,7 @@
 .section__pricing {
-    text-align: center;
     background-image: url(../../../../images/global/banner-2.png);
     background-repeat: no-repeat;
+    margin-bottom: 15rem;
 }
 
 .section__pricing h2, .section__pricing p {

@@ -1,5 +1,9 @@
-.main__slide, .section__digitalCreators .container,.section__schedule, .section__allSpeakers, .section__bestCompanies, .section__testimonials, .section__pricing, .section__yourQuestions, .section__bookYourSpot {
+.main__slide, .section__digitalCreators .container,.section__schedule, .section__allSpeakers, .section__bestCompanies, .section__testimonials, .section__yourQuestions, .section__bookYourSpot {
     margin-bottom: 10rem;
+}
+
+.main__introduction, .section__bestCompanies, .section__pricing, .section__testimonials, .section__yourQuestions {
+    text-align: center;
 }
 
 /* LINK BLUE */
