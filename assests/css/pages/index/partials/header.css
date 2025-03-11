@@ -28,10 +28,27 @@
 .header__link a {
     font-size: 0.88em;
     letter-spacing: 1px;
+    position: relative;
+}
+
+.header__link a::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -0.4rem;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: var(--white);
+    transition: all .5s;
+}
+
+.header__link a:hover::before {
+    width: 100%;
 }
 
 .header__imgBox, .header__pricing-sing {
-    flex-basis: 21rem;
+    flex-basis: 24rem;
 }
 
 .header__imgBox figcaption {
@@ -42,10 +59,19 @@
     padding: 0.78rem 1.8rem;
     font-size: 0.95em;
     letter-spacing: 2px;
+    transition: .2s;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    margin: 0 0.4rem;
 }
 
-.header__pricing-sing #header--linkSingUp {
+#header--linkSingUp, .header__pricing-sing a:hover {
     background-color: var(--white);
     color: var(--black);
-    border-radius: 10px;
+}
+
+#header--linkSingUp:hover {
+    border: 2px solid var(--white);
+    background-color: transparent;
+    color: var(--white);
 }

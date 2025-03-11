@@ -76,4 +76,9 @@
     border-radius: 10px;
     backdrop-filter: blur(24px);
     background-color: #ffffff0d;
+    transition: .5s;
+}
+.section__plans a:hover {
+    background-color: #ffffff1c;
+    
 }

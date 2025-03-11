@@ -29,10 +29,38 @@
     margin-bottom: 3.5rem;
 }
 
-.section__descriptionConference img {
-    max-width: 40rem;
+.section__conferenceImgBox {
+    overflow: hidden;
     border-radius: 10px;
+    cursor: pointer;
 }
+
+.section__conferenceImgBox img {
+    max-width: 41rem;
+    transition: .5s;
+}
+.section__conferenceImgBox img:hover {
+    transform: scale(1.1);
+}
+
+.section__conferencePlay {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    bottom: 17rem;
+    left: 19rem;
+    font-size: 1.6em;
+    backdrop-filter: blur(7px);
+    background-color: #ffffff0d;
+    padding: 1rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ffffff1a;
+}
+
+.section__conferencePlay i {}
 
 .section__logoConference {
     position: absolute;

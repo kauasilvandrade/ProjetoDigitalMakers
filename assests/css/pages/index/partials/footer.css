@@ -24,4 +24,12 @@
     border-radius: 50%;
     padding: 0.8rem;
     margin: 0 0.4rem;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: .3s;
+}
+.footer__icons i:hover {
+    color: var(--white);
+    background-color: transparent;
+    
 }

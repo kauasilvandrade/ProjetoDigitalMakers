@@ -73,14 +73,19 @@ label {
 .section__inputBox input {
     border: none;
     padding: 0.8rem 0rem;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid var(--gray);
     outline: none;
     width: 16.5rem;
     font-size: 0.9em;
 }
 
+.section__inputBox input:focus {
+    border-bottom: 2px solid var(--blue);
+}
+
 .section__radio {
     display: flex;
+    position: relative;
 }
 
 .section__formSing :nth-child(6) {
@@ -113,15 +118,37 @@ label {
 }
 
 .section__radio input {
-    display: none;
+    position: absolute;
+    left: -8rem;
+    opacity: 0;
 }
+
+.premium::after {
+    content: 'TOP';
+    border-radius: 20px;
+    content: 'Top';
+    position: absolute;
+    left: 7.6rem;
+    top: -0.1rem;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 0.4rem 0.6rem;
+    font-size: 0.7em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
 .section__radio input:checked ~ label::after {
+    display: block;
+}
+
+.section__radio input:focus ~ label::after {
     display: block;
 }
 
 .section__formSing button {
     background-color: var(--blue);
-    border: none;
+    border: 2px solid var(--blue);
     color: var(--white);
     text-align: center;
     letter-spacing: .1em;
@@ -130,8 +157,15 @@ label {
     padding: 16px 24px;
     font-family: var(--roboto);
     width: 100%;
+    transition: .5s;
+    cursor: pointer;
 }
 
+.section__formSing button:hover {
+    background-color: var(--white);
+    color: var(--black);
+    border: 2px solid var(--black);
+}
 
 .section__formSing p {
     margin-top: 2rem;

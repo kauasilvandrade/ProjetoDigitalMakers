@@ -16,6 +16,12 @@
     letter-spacing: 1px;
     border-radius: 10px;
     font-size: 0.9em;
+    transition: .4s;
+}
+
+.main__link--Book:hover {
+    color: var(--black);
+    background-color: var(--white);
 }
 
 /* IMG LOGO */
