@@ -1,31 +1,139 @@
-.section__bookYourSpot {}
+.section__bookYourSpot {
+    background-image: url(../../../../images/global/banner-book.jpg);
+    background-size: cover;
+    padding: 7rem;
+}
+.section__bookYourSpot .container {
+    display: flex;
+    justify-content: space-between;
+}
 
 .section__reservation {}
 
 .section__titleReservation {}
 
-.section__titleReservation h2 {}
+.section__titleReservation h2 {
+    margin-bottom: 2rem;
+}
 
-.section__titleReservation p {}
+.section__titleReservation p {
+    margin-bottom: 20rem;
+}
 
 .section__contact {}
 
-.section__contact a {}
+.section__contact a {
+    margin-bottom: 1rem;
+    display: inline-block;
+}
 
-.section__contact span {}
+.section__contact span {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
 
-.section__formSing {}
+.section__formSing {
+    background-color: var(--white);
+    border-radius: 15px;
+    width: 35rem;
+    color: var(--black);
+    padding: 3rem;
+}
 
-.section__formSing h3 {}
+.section__formSing h3 {
+    font-size: 2.1em;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
 
-.section__divInputs {}
+.section__divInputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+}
 
 .section__inputBox {}
 
-.section__inputBox label {}
 
-.section__inputBox input {}
+.section__inputBox input, label {
+    display: block;
+}
 
-.section__formSing span {}
+label {
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
 
-.section__formSing button {}
+.section__formSing label:nth-child(3){
+    margin-bottom: 1.4rem;
+}
+
+.section__inputBox input {
+    border: none;
+    padding: 0.8rem 0rem;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 16.5rem;
+    font-size: 0.9em;
+}
+
+.section__radio {
+    display: flex;
+}
+
+.section__formSing :nth-child(6) {
+    margin-bottom: 1rem;
+}
+
+.section__radio label {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    width: 100%;
+}
+
+.section__radio label::before, .section__radio label::after {
+    display: block;
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid var(--black);
+    border-radius: 50%
+}
+
+.section__radio label::after {
+    display: none;
+    border: 5px solid var(--blue);
+    position: absolute;
+    left: -4px;
+}
+
+.section__radio input {
+    display: none;
+}
+.section__radio input:checked ~ label::after {
+    display: block;
+}
+
+.section__formSing button {
+    background-color: var(--blue);
+    border: none;
+    color: var(--white);
+    text-align: center;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding: 16px 24px;
+    font-family: var(--roboto);
+    width: 100%;
+}
+
+
+.section__formSing p {
+    margin-top: 2rem;
+    font-size: 1em;
+}

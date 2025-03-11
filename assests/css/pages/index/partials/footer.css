@@ -1,0 +1,27 @@
+.footer {
+    padding: 7rem;
+    padding-bottom: 3rem;
+}
+
+.footer__logo {
+    margin-bottom: 6rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.footer__linksTop {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.footer__icons {}
+
+.footer__icons i {
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 50%;
+    padding: 0.8rem;
+    margin: 0 0.4rem;
+}
