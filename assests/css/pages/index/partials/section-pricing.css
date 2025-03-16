@@ -15,19 +15,29 @@
 }
 
 .section__plans {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__cardPlan {
     border: 1px solid #ffffff1a;
     border-bottom: 1px dashed #ffffff1a;
     padding: 2.7rem 2rem;
     border-radius: 10px;
-    position: relative;
-    flex-basis: 22rem;
     backdrop-filter: blur(24px);
     background-color: #ffffff0d;
 }
 
+.section__cardPlan .main__title {
+    padding-bottom: 2rem;
+    display: block;
+    border-bottom: 1px dashed var(--gray);
+    margin-bottom: 2.5rem;
+}
+
 .section__descriptionPlan {}
 
-.section__descriptionPlan h3, .section__price {
+.section__price, .section__descriptionPlan h3 {
     font-size: 2.5em;
     font-weight: 500;
 }
@@ -41,18 +51,10 @@
     margin-bottom: 8rem;
 }
 
-.section__plans .main__title {
-    padding-bottom: 2rem;
-    display: block;
-    border-bottom: 1px dashed var(--gray);
-    margin-bottom: 2.5rem;
-}
-
 .section__price {
     font-size: 2.5em;
     font-weight: 500;
-    display: flex
-;
+    display: flex;
     align-items: center;
     gap: 0.5rem;
 }
@@ -63,16 +65,12 @@
 }
 
 .section__plans a {
-    position: absolute;
     font-size: 1.4em;
     font-weight: 400;
     color: var(--white);
     border: 1px solid #ffffff1a;
     border-top: none;
     padding: 1.5rem 2rem;
-    width: 21.7rem;
-    left: 0rem;
-    bottom: -4.5rem;
     border-radius: 10px;
     backdrop-filter: blur(24px);
     background-color: #ffffff0d;

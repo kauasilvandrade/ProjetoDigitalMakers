@@ -1,3 +1,7 @@
+.section__digitalCreators {
+    padding: 0 2rem;
+}
+
 .section__digitalCreators .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -33,10 +37,11 @@
     overflow: hidden;
     border-radius: 10px;
     cursor: pointer;
+    max-width: 41rem;
 }
 
 .section__conferenceImgBox img {
-    max-width: 41rem;
+    width: 100%;
     transition: .5s;
 }
 .section__conferenceImgBox img:hover {
@@ -47,8 +52,8 @@
     position: absolute;
     width: 2rem;
     height: 2rem;
-    bottom: 17rem;
-    left: 19rem;
+    bottom: 38%;
+    left: 46%;
     font-size: 1.6em;
     backdrop-filter: blur(7px);
     background-color: #ffffff0d;

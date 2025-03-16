@@ -1,0 +1,55 @@
+@media (width < 1170px) {
+    /* MAIN */
+    .main__introduction {
+        padding: 8.3rem;
+    }
+
+    /* SECTION DIGITAL CREATORS */
+    .section__digitalCreators .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section__conferencePlay {
+       left: 19rem;
+    }
+
+    /* SECTION PRICING */
+    .section__listPricingPlans {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section__plans {
+        width: 100%;
+    }
+
+    /* SECTION YOUR QUESTIONS */
+    .section__bookYourSpot {
+        padding: 3rem;
+    }
+
+    .section__bookYourSpot .container {
+        gap: 3rem;
+        flex-direction: column;
+    }
+
+    .section__titleReservation p {
+        margin-bottom: 4rem;
+    }
+
+    .section__formSing {
+        width: 100%;
+    }
+
+    /* FOOTER */
+    .footer__logo {
+        flex-direction: column;
+        align-items: start;
+    }
+
+}
+
+/* @media (width < 723px) {
+
+
+} */

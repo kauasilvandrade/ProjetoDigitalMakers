@@ -7,11 +7,14 @@
 
 .section__listSpeakers {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .section__speakers {
     position: relative;
+    cursor: pointer;
 }
 
 .section__speakers:hover img {

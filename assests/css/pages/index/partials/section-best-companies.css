@@ -29,6 +29,7 @@
 .section__listCompanies {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 0.5rem;
     margin-bottom: 6rem;
 }
@@ -37,11 +38,12 @@
     background-color: #ffffff0d;
     border-radius: 15px;
     width: 20rem;
-    height: 10rem;
+    height: 10rem;  
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-basis: 19rem;
 }
 
 .section__companies img {}

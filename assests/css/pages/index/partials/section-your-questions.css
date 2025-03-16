@@ -14,7 +14,7 @@
 
 .section__question {
     border-bottom: 1px solid var(--gray);
-    flex-basis: 40rem;
+    flex-basis: 32rem;
 }
 
 .section__ask {

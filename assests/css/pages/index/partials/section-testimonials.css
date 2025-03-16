@@ -6,8 +6,9 @@
 
 .section__listTestimonials {
     display: flex;
-    gap: 7rem;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 7rem;
 }
 
 .section__testimonial {

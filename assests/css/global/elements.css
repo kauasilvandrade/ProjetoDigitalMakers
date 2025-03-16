@@ -2,6 +2,10 @@
     margin-bottom: 10rem;
 }
 
+.main__slide, .section__digitalCreators, .section__schedule, .section__allSpeakers, .section__yourQuestions, .section__testimonials, .section__pricing {
+    padding: 0 3rem;
+}
+
 .main__introduction, .section__bestCompanies, .section__pricing, .section__testimonials, .section__yourQuestions {
     text-align: center;
 }
