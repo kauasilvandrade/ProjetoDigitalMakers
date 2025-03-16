@@ -85,6 +85,10 @@
         padding: 2rem 3rem;
     }
 
+    .section__companies {
+        flex-basis: 13rem;
+    }
+
     /* SECTION BOOK YOUR SPOT */
     .section__divInputs {
         flex-direction: column;
@@ -106,21 +110,66 @@
 
 
 @media (width < 550px) {
-        /* h2 {
+
+    h2 {
         font-size: 2.5em;
         line-height: 1.2em;
+    } 
+
+    p {
+        font-size: 1em;
+        line-height: 1.6em;
     }
 
-    MAIN
+    .main__slide, .section__digitalCreators, .section__schedule, .section__allSpeakers, .section__yourQuestions, .section__pricing {
+        padding: 0 1.4rem;
+    }
+
+    .img-logo {
+        width: 9rem;
+    }
+
+    /* MAIN */
+    .main__introduction {
+        padding: 6rem 1.3rem;
+    }
+
     .main__titleIntroduction h1 {
         font-size: 3.9em;
     }
 
-    .main__joinIntroduction p {
-        font-size: 1em;
-    }
-
     .main__title {
         font-size: 0.7em;
-    } */
+    } 
+
+    /* SECTION DIGITAL CREATORS */
+    .section__descriptionConference h3 {
+        font-size: 1.4em;
+        margin-bottom: 1rem;
+    }
+
+    .section__conferencePlay {
+        bottom: 9rem;
+        left: 12rem;
+    }
+
+    /* SECTION SCHEDULE */
+    .section__scheduleDay {
+        font-size: 1.2em;
+    }
+
+    /* SECTION TESTIMONALS */
+    .section__testimonials {
+        padding: 2rem 1.4rem;
+    }
+
+    .section__testimonials p {
+        font-size: 1.2em;
+    }
+
+    /* SECTION BOOK YOUR SPOT */
+    .section__bookYourSpot {
+        padding: 4rem 1.4rem
+    }
+
 }
