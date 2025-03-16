@@ -49,21 +49,41 @@
 
 }
 
-@media (width < 723px) {
+@media (width < 768px) {
 
     /* MAIN */
     .main__titleIntroduction h1 {
-        font-size: 3.9em;
-    }
-
-    .main__titleIntroduction span {
-        margin-bottom: 1rem;
+        font-size: 5.7em;
     }
 
     .main__title {
         font-size: 0.7em;
     }
-    
+
+    .main__titleIntroduction span {
+        margin: 0 0.5rem;
+    }
+
+    /* SECTION DITAL CREATORS */
+    .section__digitalCreators .container {
+        gap: 5rem;
+    }
+
+    .section__conferencePlay {
+        bottom: 12rem;
+        left: 43%;
+    }
+
+    /* SECTION SCHEDULE */
+    .section__scheduleDay {
+        font-size: 1.4em;
+        padding: 2rem 0px 3.5rem;
+    }
+
+    /* SECTION BEST COMPANIES */
+    .section__bestCompanies {
+        padding: 2rem 3rem;
+    }
 
     /* SECTION BOOK YOUR SPOT */
     .section__divInputs {
@@ -82,4 +102,25 @@
     
     
 
+}
+
+
+@media (width < 550px) {
+        /* h2 {
+        font-size: 2.5em;
+        line-height: 1.2em;
+    }
+
+    MAIN
+    .main__titleIntroduction h1 {
+        font-size: 3.9em;
+    }
+
+    .main__joinIntroduction p {
+        font-size: 1em;
+    }
+
+    .main__title {
+        font-size: 0.7em;
+    } */
 }

@@ -1,6 +1,4 @@
-.section__digitalCreators {
-    padding: 0 2rem;
-}
+.section__digitalCreators {}
 
 .section__digitalCreators .container {
     display: grid;
