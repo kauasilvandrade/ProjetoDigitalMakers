@@ -82,7 +82,7 @@
 
     /* SECTION BEST COMPANIES */
     .section__bestCompanies {
-        padding: 2rem 3rem;
+        padding: 5rem 3rem;
     }
 
     .section__companies {
@@ -121,7 +121,7 @@
         line-height: 1.6em;
     }
 
-    .main__slide, .section__digitalCreators, .section__schedule, .section__allSpeakers, .section__yourQuestions, .section__pricing {
+    .main__slide, .section__digitalCreators, .section__schedule, .section__allSpeakers, .section__yourQuestions, .section__pricing, .main__joinIntroduction {
         padding: 0 1.4rem;
     }
 
@@ -149,13 +149,18 @@
     }
 
     .section__conferencePlay {
-        bottom: 9rem;
-        left: 12rem;
+        left: 43%;
+        bottom: 32%;
     }
 
     /* SECTION SCHEDULE */
     .section__scheduleDay {
         font-size: 1.2em;
+    }
+
+    /* SECTION ALL SPEAKERS */
+    .section__imgBoxSpeaker img {
+        max-width: 25rem;
     }
 
     /* SECTION TESTIMONALS */
@@ -170,6 +175,19 @@
     /* SECTION BOOK YOUR SPOT */
     .section__bookYourSpot {
         padding: 4rem 1.4rem
+    }
+
+    .section__formSing {
+        padding: 2rem;
+    }
+
+    /* FOOTER */
+    .footer__logo {
+        align-items: center;
+    }
+
+    .footer__linksTop {
+        justify-content: center;
     }
 
 }
