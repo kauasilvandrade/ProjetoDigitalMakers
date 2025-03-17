@@ -6,7 +6,7 @@
     padding: 0 3rem;
 }
 
-.main__introduction, .section__bestCompanies, .section__pricing, .section__testimonials, .section__yourQuestions {
+.main__introduction, .section__bestCompanies, .section__pricing, .section__testimonials, .section__yourQuestion, .main__introduction {
     text-align: center;
 }
 
@@ -40,4 +40,27 @@
     letter-spacing: 2px;
     font-family: var(--roboto);
     font-size: 0.95em;
+}
+
+
+@media (width < 550px) {
+
+    h2 {
+        font-size: 2.5em;
+        line-height: 1.2em;
+    } 
+
+    p {
+        font-size: 1em;
+        line-height: 1.6em;
+    }
+
+    .main__slide, .section__digitalCreators, .section__schedule, .section__allSpeakers, .section__yourQuestions, .section__pricing, .main__joinIntroduction {
+        padding: 0 1.4rem;
+    }
+
+    .img-logo {
+        width: 9rem;
+    }
+    
 }

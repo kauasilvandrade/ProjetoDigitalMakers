@@ -3,6 +3,7 @@
     background-size: cover;
     padding: 7rem;
 }
+
 .section__bookYourSpot .container {
     display: flex;
     justify-content: space-between;
@@ -51,7 +52,6 @@
 }
 
 .section__inputBox {}
-
 
 .section__inputBox input, label {
     display: block;
@@ -123,7 +123,6 @@ label {
 .premium::after {
     content: 'TOP';
     border-radius: 20px;
-    content: 'Top';
     position: absolute;
     left: 7.6rem;
     top: -0.1rem;
@@ -167,4 +166,32 @@ label {
 .section__formSing p {
     margin-top: 2rem;
     font-size: 1em;
+}
+
+
+@media (width < 768px) {
+
+    /* SECTION BOOK YOUR SPOT */
+    .section__divInputs {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .section__inputBox input {
+        width: 100%;
+    }
+
+}
+
+@media (width < 550px) {
+
+    /* SECTION BOOK YOUR SPOT */
+    .section__bookYourSpot {
+        padding: 4rem 1.4rem
+    }
+
+    .section__formSing {
+        padding: 2rem;
+    }
+    
 }

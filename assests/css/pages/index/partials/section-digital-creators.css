@@ -79,3 +79,42 @@
 .section__logoConference span {
     margin-left: 4rem;
 }
+
+/* SECTION DIGITAL CREATORS */
+.section__digitalCreators .container {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.section__conferencePlay {
+    left: 19rem;
+}
+
+
+@media (width < 768px) {
+
+    /* SECTION DITAL CREATORS */
+    .section__digitalCreators .container {
+        gap: 5rem;
+    }
+
+    .section__conferencePlay {
+        bottom: 12rem;
+        left: 43%;
+    }
+
+}
+
+@media (width < 550px) {
+
+    /* SECTION DIGITAL CREATORS */
+    .section__descriptionConference h3 {
+        font-size: 1.4em;
+        margin-bottom: 1rem;
+    }
+
+    .section__conferencePlay {
+        left: 43%;
+        bottom: 32%;
+    }
+
+}

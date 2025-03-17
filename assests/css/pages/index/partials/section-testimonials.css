@@ -3,7 +3,6 @@
     padding-bottom: 10rem;
 }
 
-
 .section__listTestimonials {
     display: flex;
     flex-wrap: wrap;
@@ -37,4 +36,17 @@
 
 .section__testimonialsContact span {
     color: var(--gray);
+}
+
+@media (width < 550px) {
+
+    /* SECTION TESTIMONALS */
+    .section__testimonials {
+        padding: 2rem 1.4rem;
+    }
+
+    .section__testimonials p {
+        font-size: 1.2em;
+    }
+
 }

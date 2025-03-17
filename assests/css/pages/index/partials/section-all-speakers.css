@@ -76,10 +76,18 @@
 .section__speakers h3 {
     margin: 0.8rem 0;
     font-size: 1.1em;
-
 }
 
 .section__speakers p {
     color: var(--gray);
     font-size: 1.09em;
+}
+
+@media (width < 550px) {
+
+    /* SECTION ALL SPEAKERS */
+    .section__speakers {
+        max-width: 23rem;
+    }
+
 }

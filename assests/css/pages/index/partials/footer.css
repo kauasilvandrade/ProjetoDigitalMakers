@@ -30,8 +30,44 @@
     cursor: pointer;
     transition: .3s;
 }
+
 .footer__icons i:hover {
     color: var(--white);
     background-color: transparent;
     
+}
+
+
+@media (width < 1170px) {
+
+    /* FOOTER */
+    .footer__logo {
+        flex-direction: column;
+        align-items: start;
+    }
+
+}
+
+@media (width < 768px) {
+
+    /* FOOTER */
+    .header__listLinks {
+        flex-direction: column;
+    }
+    
+}
+
+
+
+@media (width < 550px) {
+
+    /* FOOTER */
+    .footer__logo {
+        align-items: center;
+    }
+
+    .footer__linksTop {
+        justify-content: center;
+    }
+
 }

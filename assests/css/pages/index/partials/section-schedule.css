@@ -67,3 +67,22 @@
     padding: 0.7rem;
     font-size: 0.5em;
 }
+
+@media (width < 768px) {
+
+    /* SECTION SCHEDULE */
+    .section__scheduleDay {
+        font-size: 1.4em;
+        padding: 2rem 0px 3.5rem;
+    }
+
+}
+
+@media (width < 550px) {
+
+    /* SECTION SCHEDULE */
+    .section__scheduleDay {
+        font-size: 1.2em;
+    }
+    
+}

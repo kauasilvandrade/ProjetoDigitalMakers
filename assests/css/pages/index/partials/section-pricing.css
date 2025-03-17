@@ -76,7 +76,21 @@
     background-color: #ffffff0d;
     transition: .5s;
 }
+
 .section__plans a:hover {
     background-color: #ffffff1c;
-    
+}
+
+@media (width < 1170px) {
+
+    /* SECTION PRICING */
+    .section__listPricingPlans {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section__plans {
+        width: 100%;
+    }
+
 }

@@ -34,7 +34,7 @@
     margin-bottom: 6rem;
 }
 
-.section__companies {
+.section__companie {
     background-color: #ffffff0d;
     border-radius: 15px;
     width: 20rem;
@@ -46,4 +46,18 @@
     flex-basis: 19rem;
 }
 
-.section__companies img {}
+.section__companie img {}
+
+
+@media (width < 768px) {
+
+    /* SECTION BEST COMPANIES */
+    .section__bestCompanies {
+        padding: 5rem 3rem;
+    }
+
+    .section__companies {
+        flex-basis: 13rem;
+    }
+
+}

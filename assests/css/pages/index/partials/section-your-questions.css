@@ -34,3 +34,21 @@
     display: none;
     padding: 1rem 0;
 }
+
+@media (width < 1170px) {
+
+    /* SECTION YOUR QUESTIONS */
+    .section__bookYourSpot {
+        padding: 3rem;
+    }
+
+    .section__bookYourSpot .container {
+        gap: 3rem;
+        flex-direction: column;
+    }
+
+    .section__titleReservation p {
+        margin-bottom: 4rem;
+    }
+
+}

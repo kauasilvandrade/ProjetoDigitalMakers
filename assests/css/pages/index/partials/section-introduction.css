@@ -17,7 +17,6 @@
 
 .main__joinIntroduction {
     max-width: 30rem;
-    text-align: center;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -33,3 +32,45 @@
 .main__joinIntroduction a {}
 
 
+@media (width < 1170px) {
+
+    /* MAIN */
+    .main__introduction {
+        padding: 8.3rem;
+    }
+    
+}
+
+@media (width < 768px) {
+
+    /* MAIN */
+    .main__titleIntroduction h1 {
+        font-size: 5.7em;
+    }
+
+    .main__title {
+        font-size: 0.7em;
+    }
+
+    .main__titleIntroduction span {
+        margin: 0 0.5rem;
+    }
+
+}
+
+@media (width < 550px) {
+
+    /* MAIN */
+    .main__introduction {
+        padding: 6rem 1.3rem;
+    }
+
+    .main__titleIntroduction h1 {
+        font-size: 3.9em;
+    }
+
+    .main__title {
+        font-size: 0.7em;
+    } 
+
+}
