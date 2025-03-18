@@ -1,5 +1,4 @@
 @import url('../../global/global.css');
-@import url('responsive.css');
 
 /* PARTIALS */
 @import url('partials/footer.css');
@@ -14,4 +13,3 @@
 @import url('partials/section-slide.css');
 @import url('partials/section-testimonials.css');
 @import url('partials/section-your-questions.css');
-@import url('partials/responsive.css');

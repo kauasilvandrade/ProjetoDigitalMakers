@@ -1,8 +1,8 @@
-.main__slide, .section__digitalCreators .container,.section__schedule, .section__allSpeakers, .section__bestCompanies, .section__testimonials, .section__yourQuestions {
+.section__slide, .section__digitalCreators .container,.section__schedule, .section__allSpeakers, .section__bestCompanies, .section__testimonials, .section__yourQuestions {
     margin-bottom: 10rem;
 }
 
-.main__slide, .section__digitalCreators, .section__schedule, .section__allSpeakers, .section__yourQuestions, .section__testimonials, .section__pricing {
+.section__slide, .section__digitalCreators, .section__schedule, .section__allSpeakers, .section__yourQuestions, .section__testimonials, .section__pricing {
     padding: 0 3rem;
 }
 
@@ -55,7 +55,7 @@
         line-height: 1.6em;
     }
 
-    .main__slide, .section__digitalCreators, .section__schedule, .section__allSpeakers, .section__yourQuestions, .section__pricing, .main__joinIntroduction {
+    .section__slide, .section__digitalCreators, .section__schedule, .section__allSpeakers, .section__yourQuestions, .section__pricing, .main__joinIntroduction {
         padding: 0 1.4rem;
     }
 

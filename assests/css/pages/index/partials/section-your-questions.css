@@ -14,7 +14,14 @@
 
 .section__question {
     border-bottom: 1px solid var(--gray);
-    flex-basis: 32rem;
+    flex-basis: 40rem;
+    height: 4.5rem;
+    transition: all .6s;
+    position: relative;
+}
+
+.section__question.ativado {
+    height: 7.5rem;
 }
 
 .section__ask {
@@ -22,6 +29,7 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+    cursor: pointer;
 }
 
 .section__ask .material-icons {
@@ -31,24 +39,22 @@
 }
 
 .section__question p {
-    display: none;
     padding: 1rem 0;
+    transition: .5s;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    top: 3rem;
+}
+.section__question p.ativado {
+    top: 3.4rem;
+    opacity: 1;
+    visibility: visible;
+
 }
 
-@media (width < 1170px) {
-
-    /* SECTION YOUR QUESTIONS */
-    .section__bookYourSpot {
-        padding: 3rem;
+@media (width < 768px) {
+    .section__question.ativado {
+        height: 8.7rem;
     }
-
-    .section__bookYourSpot .container {
-        gap: 3rem;
-        flex-direction: column;
-    }
-
-    .section__titleReservation p {
-        margin-bottom: 4rem;
-    }
-
 }

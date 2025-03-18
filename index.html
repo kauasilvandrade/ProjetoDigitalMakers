@@ -16,10 +16,12 @@
 </head>
 <body>
 <!--     
-    Menu - Rodape
-    Slide
+    Your questions 
     Sponsors e Partners
-    Your questions -->
+    schedule
+    Menu - Rodape
+    Slide 
+-->
 
     <!-- HEADER -->
     <header class="header">
@@ -100,24 +102,38 @@
         </div>
 
         <!-- SECTION SLIDE -->
-        <section class="main__slide">
-
+        <section class="section__slide">
+            
             <div class="container">
 
-                <img src="assests/images/global/slide.jpg" alt="Firts Slide">
+                <ul class="sectionSlide__listaSlides">
+                    
+                    <li class="sectionSlide__itemSlide">
+                        <img src="assests/images/global/conference-1.png" alt="Firts Slide">
+                    </li>
+                    
+                    <li class="sectionSlide__itemSlide">
+                        <img src="assests/images/global/slide-1.jpg" alt="Second Slide">
+                    </li>
+                    
+                    <li class="sectionSlide__itemSlide">
+                        <img src="assests/images/global/slide-2.jpg" alt="Third Slide">
+                    </li>
+                    
+                </ul>
 
                 <span>Previous conference</span>
 
-                <div class="main__actionsSlide">
+                <div class="sectionSlide__action">
 
 
-                    <div class="main__underlineSlide"></div>
+                    <div class="sectionSlide__underlineSlide"></div>
 
-                    <div class="main__iconesSlide">
+                    <div class="sectionSlide__iconesSlide">
 
-                        <button><i class="fa-solid fa-arrow-left"></i></button>
+                        <button id="voltar"><i class="fa-solid fa-arrow-left"></i></button>
 
-                        <button><i class="fa-solid fa-arrow-right"></i></button>
+                        <button id="avancar"><i class="fa-solid fa-arrow-right"></i></button>
 
                     </div>
 
@@ -1092,5 +1108,8 @@
 
     </footer>
     
+    <script src="assests/js/slide.js"></script>
+    <script src="assests/js/faq.js"></script>
+
 </body>
 </html>

@@ -80,15 +80,18 @@
     margin-left: 4rem;
 }
 
-/* SECTION DIGITAL CREATORS */
-.section__digitalCreators .container {
-    grid-template-columns: repeat(1, 1fr);
-}
+@media (width < 1170px) {
+    
+    /* SECTION DIGITAL CREATORS */
+    .section__digitalCreators .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
-.section__conferencePlay {
-    left: 19rem;
-}
+    .section__conferencePlay {
+        left: 19rem;
+    }
 
+}
 
 @media (width < 768px) {
 

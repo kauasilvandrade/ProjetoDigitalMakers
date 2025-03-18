@@ -168,6 +168,24 @@ label {
     font-size: 1em;
 }
 
+@media (width < 1170px) {
+
+    /* SECTION BOOK YOUR SPOT */
+    .section__bookYourSpot {
+        padding: 3rem;
+    }
+
+    .section__bookYourSpot .container {
+        gap: 3rem;
+        flex-direction: column;
+    }
+
+    .section__titleReservation p {
+        margin-bottom: 4rem;
+    }
+
+}
+
 
 @media (width < 768px) {
 
