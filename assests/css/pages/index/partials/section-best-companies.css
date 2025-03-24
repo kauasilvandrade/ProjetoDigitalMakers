@@ -12,7 +12,27 @@
 }
 
 .section__actionCompanies {
-    border-bottom: 1px solid var(--gray);
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.section__actionCompanies button {
+    position: relative;
+}
+
+.section__actionCompanies button::after {
+    content: '';
+    height: 1px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -1rem;
+}
+
+.section__actionCompanies {
+    border-bottom: 1px solid #ffffff24;
 }
 
 .section__actionCompanies button {
@@ -24,6 +44,18 @@
     letter-spacing: 1px;
     background: transparent;
     border: none;
+    cursor: pointer;
+}
+
+.section__companies {
+    display: none;
+}
+
+.section__actionCompanies button.ativo::after {
+    background-color: white;
+}
+.section__companies.ativo {
+    display: block;
 }
 
 .section__listCompanies {
