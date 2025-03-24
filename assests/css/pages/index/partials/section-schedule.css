@@ -41,6 +41,7 @@
     padding: 2rem 6rem 3rem 0;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
 }
 
 .section__eventDay span {
@@ -79,6 +80,28 @@
     font-size: 0.5em;
 }
 
+@media (width < 950px) {
+
+    .section__events.ativado {
+        height: 60rem;
+    }
+
+    .section__eventDay {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .section__eventDay  h3, .section__divisao {
+        flex-basis: 0rem;
+    }
+
+    .section__listParticipants {
+        justify-content: center;
+    }
+
+}
+
 @media (width < 768px) {
 
     /* SECTION SCHEDULE */
@@ -90,6 +113,10 @@
 }
 
 @media (width < 550px) {
+
+    .section__events.ativado {
+        height: 46rem;
+    }
 
     /* SECTION SCHEDULE */
     .section__scheduleDay {
