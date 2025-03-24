@@ -90,6 +90,7 @@
         flex-direction: column;
         text-align: center;
         padding: 1rem;
+        padding-top: 2rem;
     }
 
     .section__eventDay  h3, .section__divisao {
@@ -114,8 +115,12 @@
 
 @media (width < 550px) {
 
+    .section__schedule {
+        margin-bottom: 5rem;
+    }
+
     .section__events.ativado {
-        height: 46rem;
+        height: 56rem;
     }
 
     /* SECTION SCHEDULE */

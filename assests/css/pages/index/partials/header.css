@@ -49,10 +49,6 @@
     width: 100%;
 }
 
-.header__imgBox, .header__pricing-sing {
-    flex-basis: 24rem;
-}
-
 .header__imgBox figcaption {
     display: none;
 }
@@ -78,8 +74,44 @@
     color: var(--white);
 }
 
-@media (width < 1170px) {
+.hamburguer {
+    display: none;
+}
+
+
+@media (width < 1040px) {
+
     .header {
+        
+    }
+
+    .header__listLinks {
         display: none;
     }
-}
+
+     .header__pricing-sing {
+        display: none;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .hamburguer {
+        display: block;
+        border: none;
+        background-color: transparent;
+        border-top: 3px solid white;
+        cursor: pointer;
+    }
+    
+    .hamburguer::before, .hamburguer::after {
+        content: '';
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: var(--white);
+        margin-top: 5px;
+    }
+
+} 
