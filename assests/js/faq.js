@@ -13,3 +13,4 @@ function AbrirFecharPergunta(index) {
     respostas[index].classList.toggle(classe);
     botoesPerguntas[index].classList.toggle(classe)
 }
+

@@ -46,6 +46,7 @@
     visibility: hidden;
     top: 3rem;
 }
+
 .section__question p.ativado {
     top: 3.4rem;
     opacity: 1;

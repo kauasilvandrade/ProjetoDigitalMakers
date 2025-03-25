@@ -4,11 +4,11 @@ const eventos = document.querySelectorAll('.section__events');
 
 // EVENTOS
 for (let i = 0; i < day.length; i++) {
-    day[i].addEventListener('click', () => AbrirFecharPergunta(i))
+    day[i].addEventListener('click', () => AbrirFecharDia(i))
 }
 
 // FUNÇÕES
-function AbrirFecharPergunta(index) {
+function AbrirFecharDia(index) {
     const classe = 'ativado'
     eventos[index].classList.toggle(classe)
 }
