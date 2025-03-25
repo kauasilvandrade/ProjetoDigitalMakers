@@ -1,7 +1,8 @@
+// ELEMENTOS
 const hamburguer = document.querySelector('.hamburguer');
-const nav = document.querySelector('.header__nav');
+const cabecalho = document.querySelector('.header');
 
+// EVENTOS
 hamburguer.addEventListener('click', function() {
-    nav.classList.toggle('ativo') ;
-    hamburguer.classList.toggle('ativo');
+    cabecalho.classList.toggle('ativo') ;
 })

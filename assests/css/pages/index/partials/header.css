@@ -81,58 +81,78 @@
 
 @media (width < 1040px) {
 
-    .header {
-        
-    }
-
-    .header__listLinks {
+    .header__nav, .header__listLinks {
         position: absolute;
-        background: var(--blue);
         height: 100vh;
         left: 0;
         top: 0;
         width: 100%;
-        justify-content: space-around;
+    }
+    
+    .header__listLinks {
+        background-color: var(--blue);
         flex-direction: column;
         align-items: center;
         gap: 0;
-        clip-path: circle(100px at 90% -15%);
-        transition: .4s ease-out;
+        clip-path: circle(8px at 98% -1%);
+        transition: .6s ease-out;
         pointer-events: none;
+        padding-top: 5rem;
     }
 
-    .header__nav.ativo .header__listLinks {
+    .header.ativo .header__listLinks {
         clip-path: circle(1500px at 90% -15%);
         pointer-events: all;
     }
 
-    .header__link:nth-child(1) a {
-        transition: 0.5s 0.2s;
-    }
-    .header__link:nth-child(2) a {
-        transition: 0.5s 0.4s;
-    }
-    .header__link:nth-child(3) a {
-        transition: 0.5s 0.6s;
-    }
-    .header__link:nth-child(4) a {
-        transition: 0.5s 0.8s;
-    }
-    .header__link:nth-child(5) a {
-        transition: 0.5s 0.1s;
+    .header__link {
+        width: 100%;
     }
 
     .header__link a {
-        font-size: 24px;
+        display: block;
+        text-align: center;
+        font-size: 1.3em;
         opacity: 0;
+        padding: 1.3rem;
+        border-bottom: 1px solid white;
+        transition: .3s;
     }
 
-    .header__nav.ativo a {
+    .header__link a:hover {
+        background-color: var(--white);
+        color: var(--black);
+    }
+    .header__link a:hover::before {
+        width: 0%;
+    }
+
+    .header.ativo a {
         opacity: 1;
     }
 
-    .header__pricing-sing {
-        display: none;
+    .header .header__pricing-sing {
+        height: 100vh;
+        position: absolute;
+        top: 26rem;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        right: -100%;
+        transition: .5s ease-out;
+    }
+
+    .header.header.ativo .header__pricing-sing {
+        right: 0%;
+    }
+
+    .header__pricing-sing a { 
+        margin: 0;
+        padding: 1.3rem;
+        border-radius: 0px;
+        text-align: center;
+        border-top: 1px solid var(--white);
+        border: 0;
     }
 
     .hamburguer {
@@ -147,28 +167,25 @@
     .hamburguer::before, .hamburguer::after {
         content: '';
         display: block;
-        width: 30px;
+        width: 40px;
         height: 3px;
         background-color: var(--white);
-        margin-top: 5px;
+        margin-top: 7px;
         position: relative;
         transition: .3s;
     }
 
-    .hamburguer.ativo {
-        position: fixed;
-        top: 26px;
-        right: 16px;
+    .header.ativo .hamburguer {
         border-top-color: transparent;
     }
 
-    .hamburguer.ativo::before {
+    .header.ativo .hamburguer::before {
         transform: rotate(135deg);
     }
 
-    .hamburguer.ativo::after {
+    .header.ativo .hamburguer::after {
         transform: rotate(-135deg);
-        top: -7px;
+        top: -10px;
     }
 
 } 
