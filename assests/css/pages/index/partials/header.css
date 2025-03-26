@@ -81,26 +81,26 @@
 
 @media (width < 1040px) {
 
-    .header__nav, .header__listLinks {
+    .header__nav {
         position: absolute;
         height: 100vh;
         left: 0;
         top: 0;
         width: 100%;
+        clip-path: circle(8px at 98% -1%);
+        background-color: var(--blue);
+        transition: .3s ease-out;
+        pointer-events: none;
     }
     
     .header__listLinks {
-        background-color: var(--blue);
         flex-direction: column;
         align-items: center;
         gap: 0;
-        clip-path: circle(8px at 98% -1%);
-        transition: .6s ease-out;
-        pointer-events: none;
         padding-top: 5rem;
     }
 
-    .header.ativo .header__listLinks {
+    .header.ativo .header__nav {
         clip-path: circle(1500px at 90% -15%);
         pointer-events: all;
     }

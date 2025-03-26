@@ -55,6 +55,7 @@
 .section__eventDay h3 {
     font-size: 1.5em;
     flex-basis: 15rem;
+    font-weight: 500;
 }
 
 .section__divisao {
