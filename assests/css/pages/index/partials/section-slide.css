@@ -30,7 +30,7 @@
     height: 2px;
     width: 0%;
     border-radius: 0px 10px 10px 0px;
-    animation: under 10s alternate infinite;
+    animation: under 10s alternate;
 }
 
 .sectionSlide__iconesSlide {}
