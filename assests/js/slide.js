@@ -1,7 +1,7 @@
 // ELEMENTOS
 const slides = document.querySelectorAll('.slide');
-const btnPrev = document.getElementById('voltar');
-const btnNext = document.getElementById('avancar');
+const btnPrev = document.getElementById('btnVoltarSlide');
+const btnNext = document.getElementById('btnAvancarSlide');
 
 let currentSlide = 0;
 

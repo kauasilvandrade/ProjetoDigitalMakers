@@ -74,7 +74,7 @@
     color: var(--white);
 }
 
-.hamburguer {
+.btnMenu {
     display: none;
 }
 
@@ -155,7 +155,7 @@
         border: 0;
     }
 
-    .hamburguer {
+    .btnMenu {
         display: block;
         border: none;
         background-color: transparent;
@@ -164,7 +164,7 @@
         z-index: 1;
     }
     
-    .hamburguer::before, .hamburguer::after {
+    .btnMenu::before, .btnMenu::after {
         content: '';
         display: block;
         width: 40px;
@@ -175,15 +175,15 @@
         transition: .3s;
     }
 
-    .header.ativo .hamburguer {
+    .header.ativo .btnMenu {
         border-top-color: transparent;
     }
 
-    .header.ativo .hamburguer::before {
+    .header.ativo .btnMenu::before {
         transform: rotate(135deg);
     }
 
-    .header.ativo .hamburguer::after {
+    .header.ativo .btnMenu::after {
         transform: rotate(-135deg);
         top: -10px;
     }

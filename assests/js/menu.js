@@ -1,5 +1,5 @@
 // ELEMENTOS
-const hamburguer = document.querySelector('.hamburguer');
+const hamburguer = document.querySelector('.btnMenu');
 const cabecalho = document.querySelector('.header');
 
 // EVENTOS
