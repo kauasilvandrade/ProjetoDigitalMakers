@@ -1,18 +1,17 @@
-.section__slide .container {
-    overflow: hidden;
+
+.sectionSlide__slides {
+    position: relative;
 }
 
-.sectionSlide__listaSlides {
-    display: flex;
-}
-
-.sectionSlide__itemSlide {}
-
-.sectionSlide__itemSlide img {
+.slide {
+    width: 100%;
     border-radius: 10px;
+    display: none;
     margin-bottom: 2rem;
-    height: 45rem;
-    width: 82rem;
+}
+
+.on {
+    display: block;
 }
 
 .sectionSlide__action {

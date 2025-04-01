@@ -1,49 +1,37 @@
 // ELEMENTOS
-const buttonVoltar = document.querySelector('#voltar')
-const buttonAvancar = document.querySelector('#avancar')
-const listaSlide = document.querySelector('ul.sectionSlide__listaSlides')
-const itensSlide = listaSlide.querySelectorAll('li.sectionSlide__itemSlide')
+const slides = document.querySelectorAll('.slide');
+const btnPrev = document.getElementById('voltar');
+const btnNext = document.getElementById('avancar');
 
-// CONSTANTS
-const larguraSlide = 1312
-const quantidadeItens = itensSlide.length
+let currentSlide = 0;
 
-// VARIÁVEIS
-let distancia = 0
-
-// EVENTOS
-buttonVoltar.addEventListener('click', botaoVoltar)
-buttonAvancar.addEventListener('click', botaoAvancar)
-window.addEventListener('resize', redimensionar)
-
-// CALLBACKS
-function botaoVoltar() {
-    if (distancia === 0) return;
-    
-    distancia += larguraSlide
-    
-    moverSlide(distancia)
+function hideSlide() {
+    slides.forEach(item => item.classList.remove('on'));
 }
 
-function botaoAvancar() {
-    
-    const larguraTotalSlide = quantidadeItens * larguraSlide
-    const larguraPercorrida = window.innerWidth + (distancia * -1)
-    
-    if (larguraPercorrida >= larguraTotalSlide) return
-    
-    distancia -= larguraSlide
-    
-    moverSlide(distancia)
+function showSlide() {
+    slides[currentSlide].classList.add('on');
 }
 
-
-function redimensionar() {
-    distancia = 0
-    moverSlide(distancia)
+function nextSlide() {
+    hideSlide();
+    if (currentSlide === slides.length -1) {
+        currentSlide = 0
+    } else {
+        currentSlide++
+    }
+    showSlide();
 }
 
-// AUX FUNCTIONS
-function moverSlide(distancia) {
-    listaSlide.style.transform = `translateX(${distancia}px)`
+function prevSlide() {
+    hideSlide();
+    if (currentSlide === 0) {
+        currentSlide = slides.length -1
+    } else {
+        currentSlide--
+    }
+    showSlide();
 }
+
+btnNext.addEventListener('click', nextSlide)
+btnPrev.addEventListener('click', prevSlide)
